@@ -1,0 +1,14 @@
+#first1 img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+#second1 img{
+    border-radius: 100%;
+    width: 25%;
+}
+
+#third1 img{
+    border-radius: 100%;
+    width: 12.5%;
+}
