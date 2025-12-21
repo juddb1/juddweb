@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'micro-bold';
+    src: url("fonts/Microgramma_D_Extended_Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'micro';
+    src: url("fonts/Microgramma_D_Extended_Medium.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'altone';
+    src: url("fonts/Altone-SemiBold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+html, body {
+    background: #222;
+    color: #fff;
+    margin: 0;
+    scrollbar-width: none;
+}
+
+footer {
+    display: block;
+    padding: 1rem;
+    font-family: 'micro-bold', "Arial Black", "sans-serif";
+    font-size: 2em;
+    text-align: center;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer img {
+    padding: 1rem 0;
+}
+
+.footer-logos a svg {
+    transition: transform 0.1s;
+}
+
+.footer-logos a svg:hover {
+    transform: scale(1.2);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a:visited, a:link {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'micro-bold', "Arial Black", "sans-serif";
+    font-size: 6rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2 {
+    font-family: 'micro-bold', "Arial Black", "sans-serif";
+    font-size: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    margin: .5rem;
+}
+
+.footer-sub {
+    font-family: 'altone', "Arial Black", "sans-serif";
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+::-moz-selection {
+    background: #fcb3b3;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ff8000;
+    text-shadow: none;
+}
+
+audio, canvas, iframe, img, svg, video {
+    display: block;
+    margin: 0 auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
