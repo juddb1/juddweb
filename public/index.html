@@ -45,6 +45,13 @@
             </div>
             <img src="media/footer_divide.svg">
         </footer>
-        <script type="module" src="main.js"></script>
+        <script>
+            const isSafari =
+              /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+            if (isSafari) {
+              document.body.style.background = "#262626";
+            }
+        </script>
     </body>
 </html>

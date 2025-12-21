@@ -22,15 +22,6 @@
     font-display: block;
 }
 
-supports (-webkit-touch-callout: none) {
-    html, body {
-        background: #262626;
-        color: #fff;
-        margin: 0;
-        scrollbar-width: none;
-    }
-}
-
 html, body {
     background: #222222;
     color: #fff;
